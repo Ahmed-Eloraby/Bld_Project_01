@@ -1,0 +1,16 @@
+.top_bar {
+  background-color: aqua;
+  /* margin: 0px; */
+  padding-left: 24px;
+  padding-right: 24px;
+  line-height: 19.6px;
+  /* position: relative; */
+  height: 72px;
+  align-items: center;
+  /* background-clip: border-box; */
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
