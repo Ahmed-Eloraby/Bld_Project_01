@@ -5,11 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://www.udemy.com/staticx/udemy/images/v8/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -18,6 +14,42 @@
   </head>
   <body>
     <section>
+      <!-- Menu Bar-->
+      <div class="mobile_bar flex-center">
+        <div>
+          <button
+            class="blank_background bar_button_symbol material-symbols-rounded purple_hover"
+          >
+            Menu
+          </button>
+        </div>
+        <a
+          href="https://www.udemy.com/"
+          class="flex-center extend"
+          style="justify-content: center"
+        >
+          <img
+            src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
+            alt="Udemy-Logo"
+            width="91"
+            height="34"
+          />
+        </a>
+        <div>
+          <button
+            class="blank_background bar_button_symbol material-symbols-rounded purple_hover"
+          >
+            search
+          </button>
+        </div>
+        <div>
+          <button
+            class="blank_background bar_button_symbol material-symbols-rounded purple_hover"
+          >
+            shopping_cart
+          </button>
+        </div>
+      </div>
       <div class="top_bar">
         <a
           href="https://www.udemy.com/"
@@ -61,14 +93,14 @@
             </button>
           </form>
         </div>
-        <div class="change_to_hand div_bar_links">
+        <div class="change_to_hand div_bar_links toggle_first_link_bar">
           <button
-            class="blank_background purple_hover change_to_hand bar_links font_size_14"
+            class="bar_links blank_background purple_hover change_to_hand font_size_14"
           >
             Udemy Business
           </button>
         </div>
-        <div class="change_to_hand div_bar_links">
+        <div class="change_to_hand div_bar_links toggle_second_link_bar">
           <button
             class="blank_background purple_hover change_to_hand bar_links font_size_14"
           >
@@ -97,6 +129,74 @@
             Language
           </button>
         </div>
+      </div>
+    </section>
+    <section>
+      <!-- Maib Body-->
+      <div class="flex-center main_body">
+        <div class="billboard flex-center">
+          <div>
+            <img
+              src="images/alarm.jpg"
+              alt="alarm"
+              width="1340"
+              height="400"
+              class="billboard_img"
+            />
+          </div>
+
+          <div class="billboard_banner">
+            <h1>New to Udemy? Lucky you.</h1>
+            <p>
+              Courses start at E£169.99. Get your new-student offer before it
+              expires.
+            </p>
+          </div>
+        </div>
+        <section class="courses">
+          <h3>A broad selection of courses</h3>
+          <h4>
+            Choose from 185,000 online video courses with new additions
+            published every month
+          </h4>
+          <div class="flex-center">
+            <button
+              class="flex-center blank_background courses_links change_to_hand"
+            >
+              Python
+            </button>
+            <button
+              class="flex-center blank_background courses_links change_to_hand"
+            >
+              Excel
+            </button>
+            <button
+              class="flex-center blank_background courses_links change_to_hand"
+            >
+              Web Development
+            </button>
+            <button
+              class="flex-center blank_background courses_links change_to_hand"
+            >
+              Java Script
+            </button>
+            <button
+              class="flex-center blank_background courses_links change_to_hand"
+            >
+              Data Science
+            </button>
+            <button
+              class="flex-center blank_background courses_links change_to_hand"
+            >
+              AWS Certification
+            </button>
+            <button
+              class="flex-center blank_background courses_links change_to_hand"
+            >
+              Drawing
+            </button>
+          </div>
+        </section>
       </div>
     </section>
   </body>
