@@ -113,29 +113,48 @@
 
   max-width: 1340px;
   min-width: 60px;
+  align-items: baseline;
 }
+
 .courses > h3 {
   font-family: SuisseWorks, Georgia, Times, times new roman, serif,
     apple color emoji, segoe ui emoji, segoe ui symbol;
 
   font-weight: 700;
   font-size: 3.2rem;
-  line-height: 1.25;
+  line-height: 2;
   letter-spacing: -0.05rem;
   color: #1c1d1f;
+  display: flex;
+  flex-wrap: wrap;
 }
 .courses > h4 {
   font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
     Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
     segoe ui emoji, segoe ui symbol;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.7;
   font-size: 1.9rem;
   color: #1c1d1f;
+  display: flex;
+  flex-wrap: wrap;
 }
+.course_button {
+  border: 1px solid #1c1d1f;
+  cursor: pointer;
+  font-weight: 700;
+  height: 4rem;
 
+  padding: 0 1.5rem;
+}
+.course_button_white {
+  background-color: white;
+  color: #1c1d1f;
+}
 .courses_links {
   color: #6a6f73;
+  margin-right: 1.6rem;
+  line-height: 1.4;
   padding: 0.8rem 0.4rem;
   font-size: 1.6rem;
   font-weight: 700;
@@ -145,6 +164,33 @@
 }
 .courses_links:hover {
   color: black;
+}
+.course_selected {
+  border: 1px solid #aeaeb7a2;
+  width: 100%;
+  padding: 3.2rem;
+  /* display: flex;
+  flex-direction: column; */
+}
+.course_selected > h1 {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+  color: #1c1d1f;
+  max-width: 80rem;
+}
+.course_selected > p {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+  color: #1c1d1f;
+  max-width: 80rem;
 }
 
 .div_bar_links {
@@ -157,6 +203,9 @@
 }
 .extend {
   flex-grow: 1;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .flex-center {
   align-items: center;
@@ -274,7 +323,7 @@
 
 body {
   background-color: ivory;
-  height: 2vh;
+  height: 150vh;
 }
 html {
   font-size: 62.5%;
