@@ -1,16 +1,123 @@
+@media only screen and (min-width: 40%) {
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.div_bar_links {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.bar_links {
+  margin: 1.2rem 0;
+  padding: 0 1.2rem;
+  font-weight: light;
+}
+
+html {
+  font-size: 62.5%;
+}
+.font_size_14 {
+  font-size: 1.4rem;
+}
+
+.bar_button {
+  margin-left: 0.8rem;
+  border: 1px solid #1c1d1f;
+  height: 4rem;
+  font-weight: 700;
+  padding: 0 1.5rem;
+  /* text-decoration-style: solid; */
+  cursor: pointer;
+  min-width: 8rem;
+}
+.bar_button_symbol {
+  margin-left: 0.8rem;
+  border: 1px solid #1c1d1f;
+  height: 4rem;
+
+  /* text-decoration-style: solid; */
+  cursor: pointer;
+
+  width: 4rem;
+  font-size: 0.2em;
+}
+
+.bar_button_white {
+  color: #1c1d1f;
+  background-color: white;
+}
+.bar_button_black {
+  color: white;
+  background-color: #1c1d1f;
+}
+
 .top_bar {
-  background-color: aqua;
+  display: flex;
+  background-color: white;
   /* margin: 0px; */
   padding-left: 24px;
   padding-right: 24px;
   line-height: 19.6px;
   /* position: relative; */
-  height: 72px;
+  height: 7.2rem;
   align-items: center;
   /* background-clip: border-box; */
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px 0px,
+    rgba(0, 0, 0, 0.08) 0px 4px 12px 0px;
+  /* justify-content: space-between; */
 }
 
-body {
-  padding: 0px;
-  margin: 0px;
+.form_class {
+  padding: 0 2.4rem 0 0;
+  /* margin-top: 0.1rem; */
+}
+.search_bar_btn {
+  height: 4.8rem;
+  padding: 0 1.5rem;
+}
+
+.purple_hover:hover {
+  color: #5624d0;
+}
+
+.no_style_list {
+  list-style: none;
+}
+
+.blank_background {
+  background: none;
+  border: none;
+}
+
+.change_to_hand:hover {
+  cursor: pointer;
+}
+
+.rounded_border {
+  border: 0.8px solid black;
+  border-radius: 9999px;
+  background-color: #f7f9fa;
+}
+.extend {
+  flex-grow: 1;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.div_form {
+  height: 4.8rem;
+  margin: 0 1.2rem;
+}
+
+.bar_input {
+  height: 3.2rem;
 }
