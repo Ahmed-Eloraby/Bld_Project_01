@@ -5,8 +5,462 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Udemy_bld</title>
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <!-- Menu Bar-->
+      <div class="mobile_bar flex-center">
+        <div>
+          <button
+            class="blank_background bar_button_symbol material-symbols-rounded purple_hover"
+          >
+            Menu
+          </button>
+        </div>
+        <a
+          href="https://www.udemy.com/"
+          class="flex-center extend"
+          style="justify-content: center"
+        >
+          <figure>
+            <img
+              src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
+              alt="Udemy-Logo"
+              width="91"
+              height="34"
+            />
+          </figure>
+        </a>
+        <div>
+          <button
+            class="blank_background bar_button_symbol material-symbols-rounded purple_hover"
+          >
+            search
+          </button>
+        </div>
+        <div>
+          <button
+            class="blank_background bar_button_symbol material-symbols-rounded purple_hover"
+          >
+            shopping_cart
+          </button>
+        </div>
+      </div>
+      <ul class="top_bar">
+        <li class="no_style_list">
+          <a href="https://www.udemy.com/">
+            <figure>
+              <img
+                src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
+                class="logo"
+                alt="Udemy-Logo"
+                width="91"
+                height="34"
+              />
+            </figure>
+          </a>
+        </li>
+        <li class="no_style_list change_to_hand div_bar_links">
+          <button
+            class="blank_background purple_hover change_to_hand bar_links font_size_14"
+          >
+            Categories
+          </button>
+        </li>
+        <li class="no_style_list extend div_form">
+          <form class="rounded_border form_class flex-center">
+            <button
+              class="blank_background material-symbols-rounded search_bar_btn"
+              style="color: #8a8b8d; font-size: 2.4rem"
+            >
+              search
+            </button>
+            <input
+              type="text"
+              id="search"
+              placeholder="Search for anything"
+              name="search"
+              class="blank_background extend bar_input"
+            />
+            <button
+              type="submit"
+              class="blank_background search_bar_btn purple_hover change_to_hand"
+            >
+              search
+            </button>
+          </form>
+        </li>
+        <li
+          class="no_style_list change_to_hand div_bar_links toggle_first_link_bar"
+        >
+          <button
+            class="bar_links blank_background purple_hover change_to_hand font_size_14"
+          >
+            Udemy Business
+          </button>
+        </li>
+        <li
+          class="no_style_list change_to_hand div_bar_links toggle_second_link_bar"
+        >
+          <button
+            class="blank_background purple_hover change_to_hand bar_links font_size_14"
+          >
+            Teach on Udemy
+          </button>
+        </li>
+
+        <live class="no_style_list change_to_hand">
+          <button
+            class="blank_background purple_hover change_to_hand material-symbols-rounded bar_links"
+          >
+            shopping_cart
+          </button>
+        </live>
+
+        <li class="no_style_list">
+          <button class="bar_button bar_button_white">Log in</button>
+        </li>
+        <li class="no_style_list">
+          <button class="bar_button bar_button_black">Sign up</button>
+        </li>
+        <li class="no_style_list">
+          <button
+            class="bar_button_symbol bar_button_white material-symbols-rounded"
+          >
+            Language
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <main class="flex-center main_body">
+      <section class="billboard flex-center">
+        <figure>
+          <img
+            src="images/alarm.jpg"
+            alt="alarm"
+            width="1340"
+            height="400"
+            class="billboard_img"
+          />
+        </figure>
+
+        <div class="billboard_banner">
+          <h1>New to Udemy? Lucky you.</h1>
+          <p>
+            Courses start at E£169.99. Get your new-student offer before it
+            expires.
+          </p>
+        </div>
+      </section>
+      <section class="courses">
+        <h3>A broad selection of courses</h3>
+        <h4>
+          Choose from 185,000 online video courses with new additions published
+          every month
+        </h4>
+        <div class="flex-center flex-wrap courses_links_container">
+          <button class="blank_background courses_links change_to_hand">
+            Python
+          </button>
+          <button class="blank_background courses_links change_to_hand">
+            Excel
+          </button>
+          <button class="blank_background courses_links change_to_hand">
+            Web Development
+          </button>
+          <button class="blank_background courses_links change_to_hand">
+            Java Script
+          </button>
+          <button class="blank_background courses_links change_to_hand">
+            Data Science
+          </button>
+          <button class="blank_background courses_links change_to_hand">
+            AWS Certification
+          </button>
+          <button class="blank_background courses_links change_to_hand">
+            Drawing
+          </button>
+        </div>
+        <div class="course_selected">
+          <h1>Expand your career opportunities with Python</h1>
+          <p>
+            Take one of Udemy's range of Python courses and learn how to code
+            using this incredibly useful language. Its simple syntax and
+            readability makes Python perfect for Flask, Django, data science,
+            and machine learning. You'll learn how to build everything from
+            games to sites to apps. Choose from a range of courses that will
+            appeal to...
+          </p>
+          <button class="course_button course_button_white">
+            Explore Python
+          </button>
+          <ul class="courses_representation_container">
+            <li class="no_style_list courses_representation_container_item">
+              <figure>
+                <img
+                  src="https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg"
+                  alt="course_1"
+                  width="100%"
+                />
+              </figure>
+              <h3>Learn Python: The Complete Python Programming Course</h3>
+              <p>Avinash Jain, The Codex</p>
+              <div class="courses_representation_container_item_rating">
+                <span
+                  class="courses_representation_container_item_rating_number"
+                >
+                  4.4
+                </span>
+
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                ><span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star_half</span
+                >
+                <p>(2,916)</p>
+              </div>
+              <div class="flex-center">
+                <span class="current_price">E£199.99</span>
+                <span class="original_price">E£679.99</span>
+              </div>
+            </li>
+            <li class="no_style_list courses_representation_container_item">
+              <figure>
+                <img
+                  src="https://img-b.udemycdn.com/course/240x135/396876_cc92_7.jpg"
+                  alt="course_2"
+                  width="100%"
+                />
+              </figure>
+
+              <h3>Learning Python for Data Analysis and Visualization</h3>
+              <p>Jose Portilla</p>
+              <div class="courses_representation_container_item_rating">
+                <span
+                  class="courses_representation_container_item_rating_number"
+                >
+                  4.4
+                </span>
+
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                ><span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star_half</span
+                >
+                <p>(17,984)</p>
+              </div>
+              <div class="flex-center">
+                <span class="current_price">E£269.99</span>
+                <span class="original_price">E£1,599.99</span>
+              </div>
+              <div class="flex-center">
+                <div class="courses_representation_container_item_bestseller">
+                  Bestseller
+                </div>
+              </div>
+            </li>
+            <li class="no_style_list courses_representation_container_item">
+              <figure>
+                <img
+                  src="https://img-c.udemycdn.com/course/240x135/405878_e5a0_3.jpg"
+                  alt="course_3"
+                  width="100%"
+                />
+              </figure>
+              <h3>Python for Beginners - Learn Programming from scratch</h3>
+              <p>Edwin Diaz, Coding Faculty Solutions</p>
+              <div class="courses_representation_container_item_rating">
+                <span
+                  class="courses_representation_container_item_rating_number"
+                >
+                  4.4
+                </span>
+
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                ><span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star_half</span
+                >
+                <p>(17,984)</p>
+              </div>
+              <div class="flex-center">
+                <span class="current_price">E£199.99</span>
+                <span class="original_price">E£679.99</span>
+              </div>
+            </li>
+            <li class="no_style_list courses_representation_container_item">
+              <figure>
+                <img
+                  src="https://img-c.udemycdn.com/course/240x135/426570_1b91_3.jpg"
+                  alt="course_4"
+                  width="100%"
+                />
+              </figure>
+              <h3>Learn Python: Python for Beginners</h3>
+              <p>Abrar Hussain</p>
+              <div class="courses_representation_container_item_rating">
+                <span
+                  class="courses_representation_container_item_rating_number"
+                >
+                  4.3
+                </span>
+
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                ><span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star_half</span
+                >
+                <p>(2,767)</p>
+              </div>
+              <div class="flex-center">
+                <span class="current_price">E£199.99</span>
+                <span class="original_price">E£319.99</span>
+              </div>
+            </li>
+            <li class="no_style_list courses_representation_container_item">
+              <figure>
+                <img
+                  src="https://img-b.udemycdn.com/course/240x135/449532_2aa9_7.jpg"
+                  alt="course_5"
+                  width="100%"
+                />
+              </figure>
+              <h3>Python Beyond the Basics - Object-Oriented Programming</h3>
+              <p>Infinite Skills</p>
+              <div class="courses_representation_container_item_rating">
+                <span
+                  class="courses_representation_container_item_rating_number"
+                >
+                  4.4
+                </span>
+
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star</span
+                ><span
+                  class="material-symbols-rounded courses_representation_container_item_rating_star"
+                  style="font-size: 1.75rem"
+                  >star_half</span
+                >
+                <p>(2,929)</p>
+              </div>
+              <div class="flex-center">
+                <span class="current_price">E£229.99</span>
+                <span class="original_price">E£519.99</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <figure>
+        <img
+          src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg"
+          alt="Udemy-Logo"
+          width="91"
+          height="34"
+        />
+      </figure>
+      <div>© 2022 Udemy (BLD prohect 1 Phase 1), by Ahmed Eloraby</div>
+    </footer>
+  </body>
 </html>

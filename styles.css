@@ -1,0 +1,543 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bar_button {
+  border: 1px solid #1c1d1f;
+  cursor: pointer;
+  font-weight: bold;
+  height: 4rem;
+  margin-left: 0.8rem;
+  min-width: 8rem;
+  padding: 0 1.5rem;
+}
+
+.bar_button_black {
+  background-color: #1c1d1f;
+  color: white;
+}
+
+.bar_button_symbol {
+  border: 1px solid #1c1d1f;
+  cursor: pointer;
+  font-size: 0.2em;
+  height: 4rem;
+  margin-left: 0.8rem;
+  width: 4rem;
+}
+
+.bar_button_white {
+  background-color: white;
+  color: #1c1d1f;
+}
+
+.bar_button_white:hover {
+  background-color: #f0f0f0;
+}
+
+.bar_input {
+  height: 3.2rem;
+  margin-left: 0.3rem;
+  letter-spacing: 0.03rem;
+}
+
+.bar_links {
+  font-weight: lighter;
+  margin: 1.2rem 0;
+  padding: 0 1.2rem;
+}
+
+.billboard {
+  position: relative;
+  max-width: 1340px;
+  min-width: 60px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto 3.5rem auto;
+  overflow: hidden;
+}
+
+.billboard_banner {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  box-shadow: none;
+  background: #fff;
+
+  left: auto;
+  top: auto;
+  max-width: 44rem;
+  box-shadow: none;
+  font-size: 1.6rem;
+  width: 100vw;
+  color: #1c1d1f;
+}
+
+.billboard_banner > h1 {
+  font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol;
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
+  padding: 0 2.4rem;
+  line-height: 1.25;
+}
+
+.billboard_banner > p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  padding: 0 2.4rem;
+}
+
+.billboard_img {
+  width: 100vw;
+  height: auto;
+
+  max-width: 100%;
+  vertical-align: middle;
+
+  object-fit: cover;
+  height: 25rem;
+  object-position: right;
+
+  /* transform: translateX(5rem); */
+}
+
+.blank_background {
+  background: none;
+  border: none;
+}
+
+.change_to_hand:hover {
+  cursor: pointer;
+}
+
+.courses {
+  width: 96vw;
+
+  margin: 0 auto;
+  padding: 0 2.3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  max-width: 1340px;
+  min-width: 60px;
+  align-items: flex-start;
+}
+
+.courses > h3 {
+  font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol;
+
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2;
+  letter-spacing: -0.05rem;
+  color: #1c1d1f;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.courses > h4 {
+  font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+    Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 1.6rem;
+  color: #1c1d1f;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course_button {
+  border: 1px solid #1c1d1f;
+  cursor: pointer;
+  font-weight: 700;
+  height: 4rem;
+  margin-bottom: 2.4rem;
+
+  padding: 0 1.5rem;
+}
+
+.course_button_white {
+  background-color: white;
+  color: #1c1d1f;
+}
+
+.courses_links_container {
+  margin: 0.8rem 0;
+}
+
+.courses_links {
+  color: #6a6f73;
+  margin-right: 1rem;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+}
+
+.courses_links:hover {
+  color: black;
+}
+
+.courses_representation_container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.courses_representation_container_item {
+  flex: 0 0 18.1rem;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+  margin-bottom: 1rem;
+  /* width: 100%; */
+  margin-top: 1rem;
+}
+
+.courses_representation_container_item > * {
+  margin-bottom: 0.4rem;
+}
+
+.courses_representation_container_item > h3 {
+  color: #1c1d1f;
+  font-size: 1.6rem;
+  font-family: "udemy sans", -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.courses_representation_container_item > p {
+  color: #6a6f73;
+  font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+    Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.2rem;
+}
+
+.courses_representation_container_item_bestseller {
+  background-color: #eceb98;
+  color: #3d3c0a;
+  padding: 0.4rem 0.8rem;
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  margin-top: 0.4rem;
+}
+
+.current_price {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-right: 0.4rem;
+  font-size: 1.6rem;
+  color: #1c1d1f;
+}
+
+.original_price {
+  text-decoration: line-through;
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.5rem;
+  color: #6a6f73;
+}
+
+.courses_representation_container_item_rating {
+  display: flex;
+  align-items: center;
+}
+
+.courses_representation_container_item_rating_number {
+  margin-right: 0.4rem;
+  color: #b4690e;
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.4rem;
+}
+
+.courses_representation_container_item_rating_star {
+  color: #e59819;
+  font-size: 0.3rem;
+  margin: 0 -0.1rem;
+}
+
+.courses_representation_container_item_rating > p {
+  font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+    Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
+}
+
+.course_selected {
+  border: 1px solid #aeaeb7a2;
+  width: 100%;
+  padding: 1.2rem;
+  padding-bottom: 1.6rem;
+  margin-bottom: 1.2rem;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.course_selected > h1 {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+  color: #1c1d1f;
+  max-width: 80rem;
+}
+
+.course_selected > p {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 1.6rem;
+  color: #1c1d1f;
+  max-width: 80rem;
+}
+
+.div_bar_links {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.div_form {
+  height: 4.8rem;
+  margin: 0 1.3rem;
+}
+
+.extend {
+  flex-grow: 1;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+}
+
+.font_size_14 {
+  font-size: 1.4rem;
+}
+
+.form_class {
+  height: 100%;
+  padding: 0 1rem 0 0;
+  vertical-align: auto;
+}
+
+.logo {
+  margin-right: 0.8rem;
+}
+
+.main_body {
+  position: relative;
+
+  flex-direction: column;
+  background-color: white;
+  z-index: 1009;
+}
+
+.mobile_bar {
+  position: relative;
+
+  background-color: white;
+  height: 7.2rem;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px 0px,
+    rgba(0, 0, 0, 0.08) 0px 4px 12px 0px;
+  z-index: 1010;
+}
+
+.no_surroundings {
+  padding: 0;
+  margin: 0;
+}
+.no_style_list {
+  list-style: none;
+}
+
+.purple_hover:hover {
+  color: #5624d0;
+}
+
+.rounded_border {
+  background-color: #f7f9fa;
+  border: 0.8px solid rgba(0, 0, 0, 0.75);
+  border-radius: 9999px;
+}
+
+.search_bar_btn {
+  padding: 0 1.2rem;
+  font-size: 1.4rem;
+}
+
+.toggle_first_link_bar {
+  display: none;
+}
+
+.toggle_second_link_bar {
+  display: none;
+}
+
+.top_bar {
+  align-items: center;
+  font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+    Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol;
+  font-weight: 400;
+  background-color: white;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px 0px,
+    rgba(0, 0, 0, 0.08) 0px 4px 12px 0px;
+  display: none;
+  height: 7.2rem;
+  /* line-height: 22.4px; */
+  padding-left: 24px;
+  padding-right: 24px;
+  z-index: 1010;
+}
+@media only screen and (min-width: 600px) {
+  .courses_representation_container_item {
+    flex-basis: 21.3rem;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .top_bar {
+    display: flex;
+  }
+
+  .mobile_bar {
+    display: none;
+  }
+
+  .billboard_banner {
+    position: absolute;
+    left: 7.2rem;
+    top: 6.4rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 2.4rem;
+  }
+
+  .billboard_banner > h1 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    margin-bottom: 0.8rem;
+    padding: 0;
+  }
+
+  .billboard_banner > p {
+    font-size: 1.9rem;
+    line-height: 1.4;
+    padding: 0;
+  }
+
+  .billboard_img {
+    object-fit: contain;
+    object-position: initial;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .courses > h3 {
+    font-size: 3.2rem;
+  }
+
+  .courses > h4 {
+    font-size: 1.9rem;
+  }
+
+  .course_selected {
+    padding: 3.2rem;
+  }
+
+  .courses_representation_container_item {
+    flex-basis: 24.034rem;
+  }
+
+  .courses_links {
+    font-size: 1.6rem;
+    margin-right: 1.4rem;
+  }
+
+  .course_selected > h1 {
+    font-size: 2.4rem;
+  }
+
+  .course_selected > p {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .toggle_first_link_bar {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .toggle_second_link_bar {
+    display: block;
+  }
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  background-color: #1c1d1f;
+  flex-wrap: wrap;
+}
+footer > * {
+  margin: 1.5rem;
+}
+
+html {
+  font-size: 9.8px;
+}
