@@ -431,6 +431,11 @@
   padding-right: 24px;
   z-index: 1010;
 }
+@media only screen and (min-width: 600px) {
+  .courses_representation_container_item {
+    flex-basis: 21.3rem;
+  }
+}
 
 @media only screen and (min-width: 850px) {
   .top_bar {
@@ -482,7 +487,7 @@
   }
 
   .courses_representation_container_item {
-    flex-basis: 24.5rem;
+    flex-basis: 24.034rem;
   }
 
   .courses_links {
@@ -518,6 +523,21 @@ a:active {
   text-decoration: none;
   color: inherit;
 }
+
+footer {
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  background-color: #1c1d1f;
+  flex-wrap: wrap;
+}
+footer > * {
+  margin: 1.5rem;
+}
+
 html {
   font-size: 9.8px;
 }
