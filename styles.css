@@ -173,6 +173,11 @@
 .courses_links_container {
   margin: 0.8rem 0;
 }
+.courses_links_container > input[type="radio"] {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
 
 .courses_links {
   color: #6a6f73;

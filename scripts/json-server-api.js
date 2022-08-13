@@ -1,7 +1,6 @@
 const coursesUrl = "http://localhost:3000/courses";
 const getRequest = async (url) => {
   const res = await fetch(url);
-  //   console.log("ads" + res.body);
   const data = await res.json();
 
   return data;
@@ -9,9 +8,7 @@ const getRequest = async (url) => {
 
 const findAll = async () => {
   const allCourses = await getRequest(coursesUrl);
-  allCourses.forEach((element) => {
-    console.log({ ...element });
-  });
+
   return allCourses;
 };
 
@@ -20,9 +17,9 @@ const find = async (type, key = "") => {
   if (key) {
     url += `&title_like=${key}`;
   }
+  console.log(url);
   const res = await getRequest(url);
-  console.log(res);
-  console.log(res.length);
+
   return res;
 
   //   if (key) {

@@ -9,7 +9,8 @@
       "rating": 4.4,
       "numberOfRatings": 2916,
       "currentPrice": 199.99,
-      "oldPrice": 679.99
+      "oldPrice": 679.99,
+      "bestSeller": false
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "rating": 4.4,
       "numberOfRatings": 17984,
       "currentPrice": 269.99,
-      "oldPrice": 1599.99
+      "oldPrice": 1599.99,
+      "bestSeller": true
     },
     {
       "id": 3,
@@ -31,7 +33,8 @@
       "rating": 4.4,
       "numberOfRatings": 1788,
       "currentPrice": 199.99,
-      "oldPrice": 679.99
+      "oldPrice": 679.99,
+      "bestSeller": false
     },
     {
       "id": 4,
@@ -42,7 +45,8 @@
       "rating": 4.3,
       "numberOfRatings": 2767,
       "currentPrice": 199.99,
-      "oldPrice": 319.99
+      "oldPrice": 319.99,
+      "bestSeller": false
     },
     {
       "id": 5,
@@ -53,7 +57,8 @@
       "rating": 4.4,
       "numberOfRatings": 2929,
       "currentPrice": 229.99,
-      "oldPrice": 519.99
+      "oldPrice": 519.99,
+      "bestSeller": false
     }
   ]
 }

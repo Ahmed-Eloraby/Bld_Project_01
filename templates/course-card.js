@@ -1,5 +1,5 @@
 export const generateCourseTemplate = (courseInfo) => {
-  `            <li class="no_style_list courses_representation_container_item">
+  return `<li class="no_style_list courses_representation_container_item">
     <figure>
       <img
         src=${courseInfo.image}
@@ -27,6 +27,15 @@ export const generateCourseTemplate = (courseInfo) => {
         courseInfo.oldPrice
       )}</span>
     </div>
+    ${
+      courseInfo.bestSeller
+        ? `<div class="flex-center">
+    <div class="courses_representation_container_item_bestseller">
+      Bestseller
+    </div>
+  </div>`
+        : ""
+    }
   </li>`;
 };
 
@@ -38,24 +47,24 @@ function numberWithCommas(x) {
 //Half star -> star_half
 //Empty star -> grade
 function generateRatingInStars(n) {
-  fullStar = `<span
+  const fullStar = `<span
             class="material-symbols-rounded courses_representation_container_item_rating_star"
             style="font-size: 1.75rem"
             >star</span
             >`;
-  halfStar = `<span
+  const halfStar = `<span
             class="material-symbols-rounded courses_representation_container_item_rating_star"
             style="font-size: 1.75rem"
             >star_half</span
             >`;
-  emptyStar = `<span
+  const emptyStar = `<span
             class="material-symbols-rounded courses_representation_container_item_rating_star"
             style="font-size: 1.75rem"
             >grade</span
             >`;
 
-  html_text = "";
-  count = 5;
+  let html_text = "";
+  let count = 5;
   while (n >= 1.0) {
     html_text += fullStar;
     n--;
