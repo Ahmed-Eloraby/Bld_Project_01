@@ -1,0 +1,59 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "category": "python",
+      "title": "Learn Python: The Complete Python Programming Course",
+      "image": "https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+      "author": "Avinash Jain, The Codex",
+      "rating": 4.4,
+      "numberOfRatings": 2916,
+      "currentPrice": 199.99,
+      "oldPrice": 679.99
+    },
+    {
+      "id": 2,
+      "category": "python",
+      "title": "Learning Python for Data Analysis and Visualization",
+      "image": "https://img-b.udemycdn.com/course/240x135/396876_cc92_7.jpg",
+      "author": "Jose Portilla",
+      "rating": 4.4,
+      "numberOfRatings": 17984,
+      "currentPrice": 269.99,
+      "oldPrice": 1599.99
+    },
+    {
+      "id": 3,
+      "category": "python",
+      "title": "Python for Beginners - Learn Programming from scratch",
+      "image": "https://img-c.udemycdn.com/course/240x135/405878_e5a0_3.jpg",
+      "author": "Edwin Diaz, Coding Faculty Solutions",
+      "rating": 4.4,
+      "numberOfRatings": 1788,
+      "currentPrice": 199.99,
+      "oldPrice": 679.99
+    },
+    {
+      "id": 4,
+      "category": "python",
+      "title": "Learn Python: Python for Beginners",
+      "image": "https://img-c.udemycdn.com/course/240x135/426570_1b91_3.jpg",
+      "author": "Abrar Hussain",
+      "rating": 4.3,
+      "numberOfRatings": 2767,
+      "currentPrice": 199.99,
+      "oldPrice": 319.99
+    },
+    {
+      "id": 5,
+      "category": "python",
+      "title": "Python Beyond the Basics - Object-Oriented Programming",
+      "image": "https://img-b.udemycdn.com/course/240x135/449532_2aa9_7.jpg",
+      "author": "Infinite Skills",
+      "rating": 4.4,
+      "numberOfRatings": 2929,
+      "currentPrice": 229.99,
+      "oldPrice": 519.99
+    }
+  ]
+}

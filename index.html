@@ -74,18 +74,18 @@
           </button>
         </li>
         <li class="no_style_list extend div_form">
-          <form class="rounded_border form_class flex-center">
-            <button
+          <form class="rounded_border form_class flex-center" id="search_form">
+            <span
               class="blank_background material-symbols-rounded search_bar_btn"
               style="color: #8a8b8d; font-size: 2.4rem"
             >
               search
-            </button>
+            </span>
             <input
               type="text"
-              id="search"
+              id="search_text"
               placeholder="Search for anything"
-              name="search"
+              name="search_text"
               class="blank_background extend bar_input"
             />
             <button
@@ -164,7 +164,8 @@
           Choose from 185,000 online video courses with new additions published
           every month
         </h4>
-        <div class="flex-center flex-wrap courses_links_container">
+        <form class="flex-center flex-wrap courses_links_container">
+          <input type="radio" name="JTP" id="summer" value="summer" />Summer
           <button class="blank_background courses_links change_to_hand">
             Python
           </button>
@@ -186,7 +187,7 @@
           <button class="blank_background courses_links change_to_hand">
             Drawing
           </button>
-        </div>
+        </form>
         <div class="course_selected">
           <h1>Expand your career opportunities with Python</h1>
           <p>
@@ -344,7 +345,7 @@
                   style="font-size: 1.75rem"
                   >star_half</span
                 >
-                <p>(17,984)</p>
+                <p>(1,788)</p>
               </div>
               <div class="flex-center">
                 <span class="current_price">E£199.99</span>
@@ -460,7 +461,8 @@
           height="34"
         />
       </figure>
-      <div>© 2022 Udemy (bld Project 1 Phase 1), by Ahmed Eloraby</div>
+      <div>© 2022 Udemy (bld Project 1 Phase 2), by Ahmed Eloraby</div>
     </footer>
+    <script type="module" src="scripts/script.js"></script>
   </body>
 </html>
