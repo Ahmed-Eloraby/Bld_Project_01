@@ -17,20 +17,9 @@ const find = async (type, key = "") => {
   if (key) {
     url += `&title_like=${key}`;
   }
-  console.log(url);
   const res = await getRequest(url);
 
   return res;
-
-  //   if (key) {
-  //     // not an empty String
-  //     let listOfCourses = [];
-  //     allCourses.forEach((element) => {
-  //       if (element.title.includes(key)) listOfCourses.push(element);
-  //     });
-  //     allCourses = listOfCourses;
-  //   }
-  //   return allCourses;
 };
 
 export { find, findAll };

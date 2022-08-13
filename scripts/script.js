@@ -7,26 +7,26 @@ let type = "python";
 
 search_form.addEventListener("submit", async (e) => {
   e.preventDefault();
+
   const keyword = search_form["search_text"].value.trim();
   document.getElementById("search_text").value = "";
-
-  const listOfCourses = await find(type, keyword);
-  console.log(listOfCourses);
-  const coursesListHTML = renderCourses(listOfCourses);
-  courses_list.innerHTML = coursesListHTML;
+  await renderCourses(keyword);
 });
 
-const renderCourses = (listOfCourses) => {
+const renderCourses = async (keyword) => {
+  const listOfCourses = await find(type, keyword);
+
   let coursesListHTML = "";
   listOfCourses.forEach((courseInfo) => {
-    // console.log(courseInfo);
     coursesListHTML += generateCourseTemplate(courseInfo);
-
-    // console.log(coursesListHTML);
   });
-  return coursesListHTML;
+  courses_list.innerHTML = coursesListHTML;
+};
+window.onload = async () => {
+  await renderCourses("");
 };
 
+//Plz Work :(
 // window.onload = function (e) {
 //   document.forms["search_form"].submit();
 // };
