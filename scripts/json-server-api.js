@@ -6,6 +6,8 @@ const getRequest = async (url) => {
   return data;
 };
 
+//test
+
 const findAll = async () => {
   const allCourses = await getRequest(coursesUrl);
 
