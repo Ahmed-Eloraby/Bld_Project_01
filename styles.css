@@ -5,6 +5,10 @@
   padding: 0px;
 }
 
+.active {
+  color: #1c1d1f;
+}
+
 .bar_button {
   border: 1px solid #1c1d1f;
   cursor: pointer;
@@ -13,6 +17,8 @@
   margin-left: 0.8rem;
   min-width: 8rem;
   padding: 0 1.5rem;
+  font-size: 1.4rem;
+  letter-spacing: -0.02rem;
 }
 
 .bar_button_black {
@@ -110,6 +116,33 @@
   background: none;
   border: none;
 }
+.category_name {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 1.6rem;
+  color: #1c1d1f;
+}
+.categories_title {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #1c1d1f;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+}
+.category_img {
+  transition: transform 0.13s; /* Animation */
+  object-fit: contain;
+}
+.category_img:hover {
+  transform: scale(1.05);
+}
 
 .change_to_hand:hover {
   cursor: pointer;
@@ -161,6 +194,8 @@
   font-weight: 700;
   height: 4rem;
   margin-bottom: 2.4rem;
+  font-size: 1.4rem;
+  letter-spacing: -0.02rem;
 
   padding: 0 1.5rem;
 }
