@@ -5,10 +5,6 @@
   padding: 0px;
 }
 
-.active {
-  color: #1c1d1f;
-}
-
 .bar_button {
   border: 1px solid #1c1d1f;
   cursor: pointer;
@@ -137,7 +133,7 @@
   letter-spacing: -0.02rem;
 }
 .category_img {
-  transition: transform 0.13s; /* Animation */
+  transition: transform 0.1s ease; /* Animation */
   object-fit: contain;
 }
 .category_img:hover {
@@ -224,10 +220,13 @@
     Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
     segoe ui symbol;
 }
-
-.courses_links:hover {
-  color: black;
+.courses_links.active {
+  color: #1c1d1f;
 }
+
+/* .courses_links:hover {
+  color: black;
+} */
 
 .courses_representation_container {
   display: flex;
@@ -352,7 +351,7 @@
     segoe ui symbol;
   font-weight: 700;
   font-size: 1.6rem;
-  margin-bottom: 2.4rem;
+  margin-bottom: 1rem;
   color: #1c1d1f;
   max-width: 80rem;
 }
@@ -439,6 +438,25 @@
   background-color: #f7f9fa;
   border: 0.8px solid rgba(0, 0, 0, 0.75);
   border-radius: 9999px;
+}
+
+.rounded-button {
+  width: 60px;
+  height: 60px;
+  background: #1c1d1f;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.rounded-button:hover {
+  background: #35373a;
 }
 
 .search_bar_btn {
