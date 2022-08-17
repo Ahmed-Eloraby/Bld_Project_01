@@ -44,6 +44,11 @@
   height: 3.2rem;
   margin-left: 0.3rem;
   letter-spacing: 0.03rem;
+  font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+    Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol;
+  font-weight: 400;
+  font-size: 1.4rem;
 }
 
 .bar_links {
