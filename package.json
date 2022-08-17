@@ -1,0 +1,26 @@
+{
+  "name": "bld_project_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "npm-run-all --parallel server json",
+    "server": "parcel serve index.html",
+    "json": "json-server --watch data/db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-Eloraby/Bld_Project_01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed-Eloraby/Bld_Project_01/issues"
+  },
+  "homepage": "https://github.com/Ahmed-Eloraby/Bld_Project_01#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.7.0"
+  }
+}
