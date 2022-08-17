@@ -1,7 +1,8 @@
 export const generateCourseTemplate = (courseInfo) => {
-  return `<li class="no_style_list courses_representation_container_item">
+  return `<li class="col no_style_list courses_representation_container_item">
     <figure>
       <img
+        class="img-fluid"
         src=${courseInfo.image}
         alt="course_4"
         width="100%"
