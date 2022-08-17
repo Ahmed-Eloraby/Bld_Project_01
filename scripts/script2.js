@@ -124,6 +124,7 @@ const renderCourses_row_size_5 = (listOfCourses) => {
   console.log(category);
   const slider_5 = document.getElementById(`${category}_slider-5`);
   const slider_5_inner = document.getElementById(`${category}_slider_inner-5`);
+  slider_5_inner.innerHTML = "";
   if (!numberOfCourses) slider_5.style.visibility = "hidden";
   else slider_5.style.visibility = "visible";
   let n = 5;
@@ -153,6 +154,7 @@ const renderCourses_row_size_n = (listOfCourses, n) => {
   const slider_n_inner = document.getElementById(
     `${category}_slider_inner-${n}`
   );
+  slider_n_inner.innerHTML = "";
   if (!numberOfCourses) slider_n.style.visibility = "hidden";
   else slider_n.style.visibility = "visible";
   for (let i = 0; i < numberOfCourses; i += n) {
