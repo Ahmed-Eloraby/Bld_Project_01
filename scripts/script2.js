@@ -108,7 +108,6 @@ const find = async (category, key = "") => {
 };
 
 const search_form = document.getElementById("search_form");
-const courses_list = document.getElementById("courses_list");
 let category = "python";
 
 search_form.addEventListener("submit", async (e) => {
@@ -121,7 +120,6 @@ search_form.addEventListener("submit", async (e) => {
 
 const renderCourses_row_size_5 = (listOfCourses) => {
   const numberOfCourses = listOfCourses.length;
-  console.log(category);
   const slider_5 = document.getElementById(`${category}_slider-5`);
   const slider_5_inner = document.getElementById(`${category}_slider_inner-5`);
   slider_5_inner.innerHTML = "";
@@ -193,16 +191,3 @@ window.onload = async () => {
     })
   );
 };
-
-//Plz Work :(
-// window.onload = function (e) {
-//   document.forms["search_form"].submit();
-// };
-// search_form.submit();
-// };
-
-// document.addEventListener("DOMContentLoaded", (e) => {
-//   // e.preventDefault;
-//   search_form.submit();
-//   e.preventDefault();
-// });

@@ -14,8 +14,8 @@ const findAll = async () => {
   return allCourses;
 };
 
-const find = async (type, key = "") => {
-  let url = coursesUrl + `?type=${type}`;
+const find = async (category, key = "") => {
+  let url = coursesUrl + `?category=${category}`;
   if (key) {
     url += `&title_like=${key}`;
   }

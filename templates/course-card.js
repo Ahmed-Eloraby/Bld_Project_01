@@ -1,16 +1,17 @@
 export const generateCourseTemplate = (courseInfo) => {
   return `<li class="col no_style_list courses_representation_container_item">
-    <figure>
+    <figure class="text-center">
       <img
         class="img-fluid"
         src=${courseInfo.image}
         alt="course_4"
-        width="100%"
-      />
+  width=100%
+  
+        />
     </figure>
-    <h3>${courseInfo.title}</h3>
+    <h3 >${courseInfo.title}</h3>
     <p>${courseInfo.author}</p>
-    <div class="courses_representation_container_item_rating">
+    <div class="courses_representation_container_item_rating ">
       <span
         class="courses_representation_container_item_rating_number"
       >

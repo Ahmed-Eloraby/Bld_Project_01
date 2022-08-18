@@ -290,6 +290,67 @@
       "bestSeller": false
     },
     {
+      "id": 671576,
+      "category": "datascience",
+      "title": "Machine Learning, Data Science and Deep Learning with Python",
+      "image": "https://img-c.udemycdn.com/course/750x422/671576_a272_4.jpg",
+      "author": "Sundog Education by Frank Kane",
+      "rating": 4.6,
+      "numberOfRatings": 1236,
+      "currentPrice": 159.99,
+      "oldPrice": 719.99,
+      "bestSeller": false
+    },
+    {
+      "id": 713104,
+      "category": "datascience",
+      "title": "Data Science: Deep Learning and Neural Networks in Python",
+      "image": "https://img-c.udemycdn.com/course/750x422/713104_d4cb.jpg",
+      "author": "Lazy Programmer Inc.",
+      "rating": 4.7,
+      "numberOfRatings": 1236,
+      "currentPrice": 159.99,
+      "oldPrice": 719.99,
+      "bestSeller": false
+    },
+    {
+      "id": 765242,
+      "category": "datascience",
+      "title": "R Programming A-Z™: R For Data Science With Real Exercises!",
+      "image": "https://img-c.udemycdn.com/course/750x422/765242_2578_6.jpg",
+      "author": "Kirill Eremenko",
+      "rating": 4.7,
+      "numberOfRatings": 1236,
+      "currentPrice": 159.99,
+      "oldPrice": 719.99,
+      "bestSeller": false
+    },
+    {
+      "id": 821726,
+      "category": "datascience",
+      "title": "Data Science and Machine Learning Bootcamp with R",
+      "image": "https://img-c.udemycdn.com/course/750x422/821726_8071.jpg",
+      "author": "Jose Portilla",
+      "rating": 4.8,
+      "numberOfRatings": 1236,
+      "currentPrice": 159.99,
+      "oldPrice": 719.99,
+      "bestSeller": true
+    },
+    {
+      "id": 913448,
+      "category": "datascience",
+      "title": "Python A-Z™: Python For Data Science With Real Exercises!",
+      "image": "https://img-c.udemycdn.com/course/750x422/913448_e6e2_4.jpg",
+      "author": "Kirill Eremenko",
+      "rating": 4.6,
+      "numberOfRatings": 1236,
+      "currentPrice": 159.99,
+      "oldPrice": 719.99,
+      "bestSeller": true
+    },
+
+    {
       "id": 584494,
       "category": "javascript",
       "title": "JavaScript for Kids: Code Your Own Games and Apps at Any Age",
@@ -302,6 +363,18 @@
       "bestSeller": false
     },
     {
+      "id": 1360446,
+      "category": "aws",
+      "title": "AWS Certified Cloud Practitioner 2022",
+      "image": "https://img-c.udemycdn.com/course/750x422/1360446_f69e.jpg",
+      "author": "Zeal Vora",
+      "rating": 4.6,
+      "numberOfRatings": 796,
+      "currentPrice": 259.99,
+      "oldPrice": 619.99,
+      "bestSeller": true
+    },
+    {
       "id": 1047846,
       "category": "aws",
       "title": "Amazon Web Services (AWS) Certified 2022 - 4 Certifications!",
@@ -311,6 +384,54 @@
       "numberOfRatings": 796,
       "currentPrice": 229.99,
       "oldPrice": 569.99,
+      "bestSeller": false
+    },
+    {
+      "id": 1477998,
+      "category": "aws",
+      "title": "AWS Certified Cloud Practitioner - Updated 2020",
+      "image": "https://img-c.udemycdn.com/course/750x422/1477998_1fa5_3.jpg",
+      "author": "Alan Rodrigues",
+      "rating": 4.6,
+      "numberOfRatings": 796,
+      "currentPrice": 229.99,
+      "oldPrice": 569.99,
+      "bestSeller": false
+    },
+    {
+      "id": 1581742,
+      "category": "aws",
+      "title": "AWS Certified Advanced Networking - Specialty 2022",
+      "image": "https://img-c.udemycdn.com/course/750x422/1581742_5d24_3.jpg",
+      "author": "Zeal Vora",
+      "rating": 4.6,
+      "numberOfRatings": 796,
+      "currentPrice": 419.99,
+      "oldPrice": 1499.99,
+      "bestSeller": false
+    },
+    {
+      "id": 1717968,
+      "category": "aws",
+      "title": "AWS Certified Security Specialist",
+      "image": "https://img-c.udemycdn.com/course/750x422/1717968_a945_4.jpg",
+      "author": "Alan Rodrigues",
+      "rating": 4.6,
+      "numberOfRatings": 796,
+      "currentPrice": 299.99,
+      "oldPrice": 1099.99,
+      "bestSeller": false
+    },
+    {
+      "id": 1102458,
+      "category": "aws",
+      "title": "AWS Certified Security Specialty 2022",
+      "image": "https://img-c.udemycdn.com/course/750x422/1102458_d6e6_2.jpg",
+      "author": "Zeal Vora",
+      "rating": 4.7,
+      "numberOfRatings": 796,
+      "currentPrice": 299.99,
+      "oldPrice": 1099.99,
       "bestSeller": false
     },
     {
