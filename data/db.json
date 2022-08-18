@@ -278,6 +278,18 @@
       "bestSeller": false
     },
     {
+      "id": 513244,
+      "category": "datascience",
+      "title": "Data Science A-Z™: Real-Life Data Science Exercises Included",
+      "image": "https://img-c.udemycdn.com/course/750x422/513244_b831_4.jpg",
+      "author": "Kirill Eremenko, Ligency I Team, Ligency Team",
+      "rating": 4.6,
+      "numberOfRatings": 796,
+      "currentPrice": 159.99,
+      "oldPrice": 419.99,
+      "bestSeller": false
+    },
+    {
       "id": 584494,
       "category": "javascript",
       "title": "JavaScript for Kids: Code Your Own Games and Apps at Any Age",
@@ -285,6 +297,30 @@
       "author": "Bryson Payne",
       "rating": 4.5,
       "numberOfRatings": 796,
+      "currentPrice": 199.99,
+      "oldPrice": 319.99,
+      "bestSeller": false
+    },
+    {
+      "id": 1047846,
+      "category": "aws",
+      "title": "Amazon Web Services (AWS) Certified 2022 - 4 Certifications!",
+      "image": "https://img-c.udemycdn.com/course/750x422/1047846_83ef_29.jpg",
+      "author": "BackSpace Academy,Paul Coady",
+      "rating": 4.5,
+      "numberOfRatings": 796,
+      "currentPrice": 229.99,
+      "oldPrice": 569.99,
+      "bestSeller": false
+    },
+    {
+      "id": 382394,
+      "category": "drawing",
+      "title": "Drawing and Sketching for Beginners",
+      "image": "https://img-c.udemycdn.com/course/750x422/382394_63fa_7.jpg",
+      "author": "Robin Slee | Art | Illustration | iPad | Software Development",
+      "rating": 4.3,
+      "numberOfRatings": 1369,
       "currentPrice": 199.99,
       "oldPrice": 319.99,
       "bestSeller": false
