@@ -172,6 +172,9 @@
 .change_to_hand:hover {
   cursor: pointer;
 }
+.container {
+  max-width: 100% !important;
+}
 
 .courses,
 .Categories_Section {
